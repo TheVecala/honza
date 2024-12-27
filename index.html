@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VIP Terapie</title>
+</head>
+<bodybackground="premium_photo-.jpg"> >
+ <?php
+$to = "honziknotfound@seznam.cz";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: VIPterapie@annas.vip" . "\r\n" .
+"CC: honziknotfound@seznam.cz";
+<button onclick="">Free Terapie</button>
+mail($to,$subject,$txt,$headers);
+?>
+ <h1>VIP terapie</h1>
+ <h2>za 1 až 2</h2>
+ <p1>1kč pouze o velké přestávce</p1>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+jméno a příjmení:<br>
+<input type="text" name="name"><br>
+
+kdy:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>

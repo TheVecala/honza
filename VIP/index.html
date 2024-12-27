@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VIP</title>
+</head>
+<body background="premium_photo-.jpg">
+ <?php
+$to = "honziknotfound@seznam.cz";
+$subject = "My subject";
+$txt = "Hello world!";
+$headers = "From: VIPterapie@annas.vip" . "\r\n" .
+"CC: honziknotfound@seznam.cz";
+
+mail($to,$subject,$txt,$headers);
+?>
+ <h1>free terapie</h1>
+ <h2>toto je VIP verze naší terapie</h2>
+ <h1>pracujeme s profesionály</h1>
+<h1>pokud chcete zakoupit VIP lístek vyplňte formulář</h1>
+<h1><a href="https://www.mezi3a5.cz/hry/terapie/">free verze zde</a></h1>
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+jméno a příjmení:<br>
+<input type="text" name="name"><br>
+
+kdy:<br>
+<input type="text" name="comment" size="50"><br><br>
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+ <h1>Výhody VIP</h1>
+ <h1>Naši VIP místnost po každém sezení dezinfikujeme a umýváme</h1>
+ <h1>U nás dostanete občerstvení: marshmelouny haribo gumídky ( podle dodavatele občerstvení)</h1>
+ <h1>U naší Terapie vám dáme Test + se vás zeptáme na pár otázek</h1>
+</head>
+</body>
+</html>
